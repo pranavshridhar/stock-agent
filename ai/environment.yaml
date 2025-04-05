@@ -1,9 +1,17 @@
-name: hackstock
+name: base
 channels:
   - https://repo.anaconda.com/pkgs/main
   - https://repo.anaconda.com/pkgs/r
 dependencies:
-  - python=3.10
-  - conda-forge::fastapi
-  - conda-forge::google-generativeai
-prefix: /home/pranav/miniconda3/envs/hackstock
+  - python=3.12
+  - conda==25.3.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - menuinst
+  - anaconda-anon-usage
+  - flask_cors
+  - ipykernel
+prefix: /home/pranav/miniconda3
