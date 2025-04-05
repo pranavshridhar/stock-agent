@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Tickerbar from "./components/Tickerbar";
 import NewsHeader from "./components/NewsHeader";
-import ChatbotBox from "./components/ChatboxBox";
 import ChatboxBox from "./components/ChatboxBox";
 
 export default function Home() {
