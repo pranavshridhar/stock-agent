@@ -4,7 +4,7 @@ import Tickerbar from "./components/Tickerbar";
 export default function Home() {
   return (
     <div className="flex min-h-screen w-full">
-      <div className="w-[200px] bg-gray-200">
+      <div className="text-center w-[200px] bg-gray-200">
         <Tickerbar />
       </div>
 
