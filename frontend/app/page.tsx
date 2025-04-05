@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Tickerbar from "./components/Tickerbar";
+import NewsHeader from "./components/NewsHeader";
+import ChatbotBox from "./components/ChatboxBox";
 
 export default function Home() {
   return (
@@ -12,12 +14,12 @@ export default function Home() {
       <div className="flex flex-col w-full h-screen">
         {/* News Header */}
         <div className="flex items-center justify-center flex-1 border">
-          news header
+          <NewsHeader/>
         </div>
 
         {/* Chatbot */}
-        <div className="flex items-center justify-center flex-1 border">
-          chatbot box
+        <div className="flex flex-1 border">
+          <ChatbotBox/>
         </div>
       </div>
     </div>
