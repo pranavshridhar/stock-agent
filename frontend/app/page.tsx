@@ -2,6 +2,7 @@ import Image from "next/image";
 import Tickerbar from "./components/Tickerbar";
 import NewsHeader from "./components/NewsHeader";
 import ChatbotBox from "./components/ChatboxBox";
+import ChatboxBox from "./components/ChatboxBox";
 
 export default function Home() {
   return (
@@ -11,15 +12,15 @@ export default function Home() {
       </div>
 
       {/* Right side content */}
-      <div className="flex flex-col w-full h-screen">
-        {/* News Header */}
-        <div className="flex items-center justify-center flex-1 border">
-          <NewsHeader/>
+      <div className="flex flex-col flex-1">
+        {/* News Header — top 50% */}
+        <div className="h-1/2 border">
+          <NewsHeader />
         </div>
 
-        {/* Chatbot */}
-        <div className="flex flex-1 border">
-          <ChatbotBox/>
+        {/* Chatbox — bottom 50% */}
+        <div className="h-1/2 border">
+          <ChatboxBox />
         </div>
       </div>
     </div>
