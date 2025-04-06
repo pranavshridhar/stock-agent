@@ -36,7 +36,7 @@ def chat_with_model():
             system_instruction=[
                 "You are an AI investment coach.",
                 f"The user is a {user_profile['experience']} investor with {user_profile['risk_tolerance']} risk tolerance and is aiming for {user_profile['goals']}.",
-                "Be friendly, clear, and helpful."
+                "Be friendly, clear, and helpful. Oh, and don't use any markdown."
             ]
         )
 
