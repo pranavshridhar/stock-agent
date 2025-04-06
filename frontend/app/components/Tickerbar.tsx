@@ -45,7 +45,7 @@ const Tickerbar = () => {
               : ticker.direction === "down"
               ? "text-red-600"
               : "text-gray-600";
-
+ 
           const arrow =
             ticker.direction === "up"
               ? "▲"
