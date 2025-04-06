@@ -1,7 +1,7 @@
 name: bankruptcy-test
 channels:
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
+  - conda-forge
+  - defaults
 dependencies:
   - python=3.10
   - ipykernel
@@ -9,3 +9,4 @@ dependencies:
   - scikit-learn
   - imbalanced-learn
   - matplotlib
+  - xgboost
