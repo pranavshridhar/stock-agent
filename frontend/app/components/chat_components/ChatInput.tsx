@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import { Send } from 'lucide-react'
 
 type ChatInputProps = {
-  onSend: (message: string) => void
+  onSend: (text: string) => void
 }
 
 const ChatInput: React.FC<ChatInputProps> = ({ onSend }) => {
