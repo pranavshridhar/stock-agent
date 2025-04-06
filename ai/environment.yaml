@@ -1,0 +1,13 @@
+name: hackstock
+channels:
+  - conda-forge
+dependencies:
+  - fastapi
+  - python=3.10
+  - google-generativeai
+  - conda-forge::flask
+  - flask-cors
+  - pip
+  - pip:
+      - google-genai==1.9.0
+prefix: /Users/pranavshridhar/miniconda3/envs/hackstock
